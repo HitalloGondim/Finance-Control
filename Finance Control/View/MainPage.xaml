@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finance_Control.MainPage"
+             Shell.NavBarIsVisible="True"
+             Shell.FlyoutBehavior="Flyout">
+    <!--Expected contents in this page
+    Saldo
+    Entradas
+    Saidas
+    -->
+
+    <Grid ColumnDefinitions="*,*"
+          ColumnSpacing="0"
+          RowDefinitions="auto,*"
+          RowSpacing="0"
+          BackgroundColor="AliceBlue">
+
+        <!-- SALDO/ENTRADA/SAIDA-->
+        <Frame Grid.ColumnSpan="2" Grid.Row="0"
+               BackgroundColor="White"
+               Padding="0" 
+               Margin="20"
+               CornerRadius="20" 
+               VerticalOptions="FillAndExpand"
+               BorderColor="Transparent">
+
+            <VerticalStackLayout Padding="20">
+
+                <Label Text="SALDO TOTAL" TextColor="Gray" HorizontalTextAlignment="Start"/>
+
+                <Label Text="R$ 12.880,53" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Start" Padding="0,0,0,10"/>
+
+                <Grid ColumnDefinitions="*,*"
+                      RowDefinitions="*"
+                      ColumnSpacing="0"
+                      RowSpacing="0">
+
+                    <Label Grid.Column="0" Text="+ R$ 14.500" TextColor="Green" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Transparent"/>
+
+                    <Label Grid.Column="1" Text="- R$ 3.250" TextColor="Red" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Transparent"/>
+
+
+                </Grid>
+
+
+
+            </VerticalStackLayout>
+
+        </Frame>
+
+        <!-- Ultimas Transações -->
+        <VerticalStackLayout Grid.ColumnSpan="2" Grid.Row="1">
+            <Label Text="Ultimas Transações" Margin="20,20,20,10" FontSize="Medium" FontAttributes="Bold"/>
+
+            <Frame BackgroundColor="White"
+                    Padding="5,5"
+                    Margin="20,0,20,5"
+                    CornerRadius="10"
+                    VerticalOptions="FillAndExpand"
+                    BorderColor="Transparent">
+
+                <Grid ColumnDefinitions="auto,*,auto"
+                       RowDefinitions="*"
+                       ColumnSpacing="0">
+
+                    <Image Source="dotnet_bot.svg"
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Margin="0"
+                            WidthRequest="50"
+                            HeightRequest="50"
+                            Aspect="AspectFit" />
+
+                    <VerticalStackLayout Grid.Column="1" Grid.Row="0"
+                                        Padding="5,0">
+                        <Label Text="Onomatopeia" FontSize="Medium"
+                                FontAttributes="Bold"/>
+                        <Label Text="02/08/2023" FontSize="Small" TextColor="Gray"
+                                FontAttributes="Bold"/>
+
+                    </VerticalStackLayout>
+                    <Label Text="+ R$ 2,00" 
+                            Grid.Column="3"
+                            VerticalTextAlignment="Center"
+                            FontSize="Medium" 
+                            TextColor="Green"/>
+
+                </Grid>
+
+
+
+
+
+            </Frame>
+
+          
+
+        </VerticalStackLayout>
+
+    </Grid>
+
+</ContentPage>

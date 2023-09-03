@@ -1,0 +1,1 @@
+C:\Projetos\Finance Control\Finance Control\Finance Control.csproj;x64
