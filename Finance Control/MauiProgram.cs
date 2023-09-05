@@ -13,6 +13,10 @@ namespace Finance_Control
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+
+                    fonts.AddFont("Font-Awesome-Brands-Regular-400.otf", "FontAwesomeBR");
+                    fonts.AddFont("Font-Awesome-Free-Regular-400.otf", "FontAwesomeFR");
+                    fonts.AddFont("Font-Awesome-Free-Solid-900.otf", "FontAwesomeFS");
                 });
 
 #if DEBUG

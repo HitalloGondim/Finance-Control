@@ -1,13 +1,10 @@
-﻿namespace Finance_Control
+﻿namespace Finance_Control;
+
+public partial class MainPage : ContentPage
 {
-    public partial class MainPage : ContentPage
+    public MainPage()
     {
-        public MainPage()
-        {
-            InitializeComponent();
-
-        }
-
-        
+        InitializeComponent();
     }
+
 }

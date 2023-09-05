@@ -4,6 +4,14 @@
              x:Class="Finance_Control.MainPage"
              Shell.NavBarIsVisible="True"
              Shell.FlyoutBehavior="Flyout">
+
+
+    <ContentPage.Resources>
+        <x:String x:Key="plus">&#x2b;</x:String>
+    </ContentPage.Resources>
+    
+    
+    
     <!--Expected contents in this page
     Saldo
     Entradas
@@ -12,7 +20,7 @@
 
     <Grid ColumnDefinitions="*,*"
           ColumnSpacing="0"
-          RowDefinitions="auto,*"
+          RowDefinitions="auto,*, auto"
           RowSpacing="0"
           BackgroundColor="AliceBlue">
 
@@ -29,16 +37,16 @@
 
                 <Label Text="SALDO TOTAL" TextColor="Gray" HorizontalTextAlignment="Start"/>
 
-                <Label Text="R$ 12.880,53" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Start" Padding="0,0,0,10"/>
+                <Label Text="R$ 2000,00" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Start" Padding="0,0,0,10"/>
 
                 <Grid ColumnDefinitions="*,*"
                       RowDefinitions="*"
                       ColumnSpacing="0"
                       RowSpacing="0">
 
-                    <Label Grid.Column="0" Text="+ R$ 14.500" TextColor="Green" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Transparent"/>
+                    <Label Grid.Column="0" Text="+ R$ 2000,00" TextColor="Green" FontSize="Medium"/>
 
-                    <Label Grid.Column="1" Text="- R$ 3.250" TextColor="Red" FontSize="Medium" FontAttributes="Bold" BackgroundColor="Transparent"/>
+                    <Label Grid.Column="1" Text="- R$ 0,00" TextColor="Red" FontSize="Medium"/>
 
 
                 </Grid>
@@ -50,21 +58,23 @@
         </Frame>
 
         <!-- Ultimas Transações -->
-        <VerticalStackLayout Grid.ColumnSpan="2" Grid.Row="1">
-            <Label Text="Ultimas Transações" Margin="20,20,20,10" FontSize="Medium" FontAttributes="Bold"/>
+        <ScrollView Grid.ColumnSpan="2" Grid.Row="1">
+            <VerticalStackLayout>
+                <Label Text="Ultimas Transações" Margin="20,20,20,10" FontSize="Medium" FontAttributes="Bold"/>
 
-            <Frame BackgroundColor="White"
+
+                <Frame BackgroundColor="White"
                     Padding="5,5"
                     Margin="20,0,20,5"
                     CornerRadius="10"
                     VerticalOptions="FillAndExpand"
                     BorderColor="Transparent">
 
-                <Grid ColumnDefinitions="auto,*,auto"
+                    <Grid ColumnDefinitions="auto,*,auto"
                        RowDefinitions="*"
                        ColumnSpacing="0">
 
-                    <Image Source="dotnet_bot.svg"
+                        <Image Source="dotnet_bot.svg"
                             Grid.Column="0"
                             Grid.Row="0"
                             Margin="0"
@@ -72,32 +82,64 @@
                             HeightRequest="50"
                             Aspect="AspectFit" />
 
-                    <VerticalStackLayout Grid.Column="1" Grid.Row="0"
+                        <VerticalStackLayout Grid.Column="1" Grid.Row="0"
                                         Padding="5,0">
-                        <Label Text="Onomatopeia" FontSize="Medium"
+                            <Label Text="Onomatopeia" FontSize="Medium"
                                 FontAttributes="Bold"/>
-                        <Label Text="02/08/2023" FontSize="Small" TextColor="Gray"
-                                FontAttributes="Bold"/>
+                            <Label Text="02/08/2023" FontSize="Small" TextColor="Gray"/>
 
-                    </VerticalStackLayout>
-                    <Label Text="+ R$ 2,00" 
+                        </VerticalStackLayout>
+                        <Label Text="+ R$ 2,00" 
                             Grid.Column="3"
                             VerticalTextAlignment="Center"
                             FontSize="Medium" 
                             TextColor="Green"/>
 
-                </Grid>
+                    </Grid>
 
 
 
 
 
-            </Frame>
+                </Frame>
 
-          
+            </VerticalStackLayout>
+        </ScrollView>
 
-        </VerticalStackLayout>
 
+        <Frame Grid.ColumnSpan="2" Grid.Row="2"
+               BackgroundColor="White"
+               Padding="10,0" 
+               Margin="0"
+               CornerRadius="20" 
+               VerticalOptions="FillAndExpand"
+               BorderColor="Transparent">
+
+            <Grid ColumnDefinitions="*,*,*,*,*">
+                <Label Grid.Column="0" Text="INICIO" FontSize="Small" VerticalTextAlignment="Center"/>
+
+                <Label Grid.Column="1" Text="EXTRATO" FontSize="Small" VerticalTextAlignment="Center"/>
+
+            <!--    <Label Grid.Column="2" ima Text="+" FontSize="Large" VerticalTextAlignment="Center"/> -->
+
+                <Frame Grid.Column="2"  CornerRadius="50" BackgroundColor="Purple" Padding="10" Margin="0,10">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="White" Glyph="{StaticResource plus}"/>
+                        </Image.Source>
+                    </Image>
+                </Frame>
+                
+
+
+                <Label Grid.Column="3" Text="Test" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+
+                <Label Grid.Column="4" Text="Test"  FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+
+            </Grid>
+            
+        </Frame>
+        
     </Grid>
 
 </ContentPage>
