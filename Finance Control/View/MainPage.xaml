@@ -8,10 +8,12 @@
 
     <ContentPage.Resources>
         <x:String x:Key="plus">&#x2b;</x:String>
+        <x:String x:Key="house">&#xf015;</x:String>
+        <x:String x:Key="extract">&#xf53d;</x:String>
+        <x:String x:Key="more">&#xf141;</x:String>
+        <x:String x:Key="excel">&#xf1c3;</x:String>
     </ContentPage.Resources>
-    
-    
-    
+
     <!--Expected contents in this page
     Saldo
     Entradas
@@ -84,12 +86,12 @@
 
                         <VerticalStackLayout Grid.Column="1" Grid.Row="0"
                                         Padding="5,0">
-                            <Label Text="Onomatopeia" FontSize="Medium"
+                            <Label Text="Aceitas pix?" FontSize="Medium"
                                 FontAttributes="Bold"/>
-                            <Label Text="02/08/2023" FontSize="Small" TextColor="Gray"/>
+                            <Label Text="05/09/2023" FontSize="Small" TextColor="Gray"/>
 
                         </VerticalStackLayout>
-                        <Label Text="+ R$ 2,00" 
+                        <Label Text="+ R$ 500,00" 
                             Grid.Column="3"
                             VerticalTextAlignment="Center"
                             FontSize="Medium" 
@@ -111,35 +113,69 @@
                BackgroundColor="White"
                Padding="10,0" 
                Margin="0"
-               CornerRadius="20" 
-               VerticalOptions="FillAndExpand"
-               BorderColor="Transparent">
+               VerticalOptions="CenterAndExpand">
 
-            <Grid ColumnDefinitions="*,*,*,*,*">
-                <Label Grid.Column="0" Text="INICIO" FontSize="Small" VerticalTextAlignment="Center"/>
+            <Grid ColumnDefinitions="*,*,*,*,*"
+                  ColumnSpacing="10">
 
-                <Label Grid.Column="1" Text="EXTRATO" FontSize="Small" VerticalTextAlignment="Center"/>
+                <!--HOME-->
+                <VerticalStackLayout Grid.Column="0" Margin="0" Padding="0" HorizontalOptions="Center" VerticalOptions="Center" >
 
-            <!--    <Label Grid.Column="2" ima Text="+" FontSize="Large" VerticalTextAlignment="Center"/> -->
-
-                <Frame Grid.Column="2"  CornerRadius="50" BackgroundColor="Purple" Padding="10" Margin="0,10">
                     <Image>
                         <Image.Source>
-                            <FontImageSource FontFamily="FontAwesomeFS" Color="White" Glyph="{StaticResource plus}"/>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="Blue" Glyph="{StaticResource house}"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="HOME" FontSize="Small" TextColor="Blue" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+
+                <!--EXTRATO-->
+                <VerticalStackLayout Grid.Column="1" Margin="0" Padding="0" HorizontalOptions="Center" VerticalOptions="Center" >
+                    <VerticalStackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnTapExtrato" />
+                    </VerticalStackLayout.GestureRecognizers>
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="Blue" Glyph="{StaticResource extract}"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="EXTRATO" FontSize="Small" TextColor="Blue" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+
+
+                <!--Plus-->
+                <Frame HeightRequest="40" WidthRequest="40" Grid.Column="2" CornerRadius="100" BackgroundColor="Blue" Padding="10" Margin="0,10" >
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFR" Color="White" Glyph="{StaticResource plus}"/>
                         </Image.Source>
                     </Image>
                 </Frame>
-                
 
 
-                <Label Grid.Column="3" Text="Test" FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                <!--Planilha-->
+                <VerticalStackLayout Grid.Column="3" Margin="0" Padding="0" HorizontalOptions="Center" VerticalOptions="Center" >
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="Blue" Glyph="{StaticResource excel}"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="Planilha" FontSize="Small" TextColor="Blue" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
 
-                <Label Grid.Column="4" Text="Test"  FontSize="Large" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
-
+                <!--MAIS-->
+                <VerticalStackLayout Grid.Column="4" Margin="0" Padding="0" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="Blue" Glyph="{StaticResource more}"/>
+                        </Image.Source>
+                    </Image>
+                    <Label Text="Mais" FontSize="Small" TextColor="Blue" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
             </Grid>
-            
+
         </Frame>
-        
+
     </Grid>
 
 </ContentPage>

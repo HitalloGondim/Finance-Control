@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-09-03T11:20:00.715</Modified>
+      <Modified>2023-09-05T20:11:36.936</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-09-03T11:20:00.103</Modified>
+      <Modified>2023-09-05T20:10:48.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Finance Control.runtimeconfig.json">
       <PackagePath>Finance Control.runtimeconfig.json</PackagePath>
-      <Modified>2023-08-25T19:00:33.351</Modified>
+      <Modified>2023-09-05T16:42:40.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Finance Control.dll">
       <PackagePath>Finance Control.dll</PackagePath>
-      <Modified>2023-09-03T11:19:57.457</Modified>
+      <Modified>2023-09-05T20:11:35.494</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Finance Control.exe</PackagePath>
-      <Modified>2023-09-03T11:19:57.509</Modified>
+      <Modified>2023-09-05T20:11:35.504</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Finance Control.deps.json">
       <PackagePath>Finance Control.deps.json</PackagePath>
-      <Modified>2023-09-03T11:19:59.622</Modified>
+      <Modified>2023-09-05T20:09:47.491</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\XviciadofatorX\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.10\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -956,6 +956,18 @@
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-08-25T18:51:18.771</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Brands-Regular-400.otf">
+      <PackagePath>Font-Awesome-Brands-Regular-400.otf</PackagePath>
+      <Modified>2023-08-01T20:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Regular-400.otf">
+      <PackagePath>Font-Awesome-Free-Regular-400.otf</PackagePath>
+      <Modified>2023-08-01T20:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Solid-900.otf">
+      <PackagePath>Font-Awesome-Free-Solid-900.otf</PackagePath>
+      <Modified>2023-08-01T20:27:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>

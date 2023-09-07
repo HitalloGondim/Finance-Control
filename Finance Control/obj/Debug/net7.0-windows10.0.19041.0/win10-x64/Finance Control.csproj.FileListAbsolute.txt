@@ -322,3 +322,6 @@ C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Brands-Regular-400.otf
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Regular-400.otf
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Solid-900.otf

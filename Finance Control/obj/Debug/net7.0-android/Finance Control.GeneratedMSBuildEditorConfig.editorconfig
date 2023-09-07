@@ -43,3 +43,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Projetos/Finance Control/Finance Control/View/NewPage1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\NewPage1.xaml

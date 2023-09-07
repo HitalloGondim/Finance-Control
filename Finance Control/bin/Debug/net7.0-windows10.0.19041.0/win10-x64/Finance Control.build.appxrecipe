@@ -718,6 +718,15 @@
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Brands-Regular-400.otf">
+      <PackagePath>Font-Awesome-Brands-Regular-400.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Regular-400.otf">
+      <PackagePath>Font-Awesome-Free-Regular-400.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\Font-Awesome-Free-Solid-900.otf">
+      <PackagePath>Font-Awesome-Free-Solid-900.otf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
