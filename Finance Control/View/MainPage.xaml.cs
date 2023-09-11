@@ -12,7 +12,11 @@ public partial class MainPage : ContentPage
 
     async private void OnTapExtrato(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(NewPage1));
+        await Shell.Current.GoToAsync(nameof(ExtractPage));
     }
 
+    /*async private void AddTransation_Tapped(object sender, TappedEventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(TransactionPage));
+    }*/
 }

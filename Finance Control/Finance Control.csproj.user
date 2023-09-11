@@ -17,6 +17,9 @@
     <MauiXaml Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="View\ExtractPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="View\MainPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -27,9 +30,6 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="Resources\Styles\Styles.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="View\NewPage1.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

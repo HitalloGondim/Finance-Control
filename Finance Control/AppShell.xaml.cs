@@ -7,7 +7,7 @@ namespace Finance_Control
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(NewPage1), typeof(NewPage1));
+            Routing.RegisterRoute(nameof(ExtractPage), typeof(ExtractPage));
         }
     }
 }
