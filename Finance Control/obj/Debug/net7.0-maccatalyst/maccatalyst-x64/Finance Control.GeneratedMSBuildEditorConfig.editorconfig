@@ -34,6 +34,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.Resources.
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Projetos/Finance Control/Finance Control/View/CadastroPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.CadastroPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CadastroPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CadastroPage.xaml
+
 [C:/Projetos/Finance Control/Finance Control/View/ExtractPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.ExtractPage.xaml
@@ -45,3 +51,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Projetos/Finance Control/Finance Control/View/XMarkPopUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Finance_Control.View.XMarkPopUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\XMarkPopUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\XMarkPopUpPage.xaml

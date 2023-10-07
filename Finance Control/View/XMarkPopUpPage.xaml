@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finance_Control.View.XMarkPopUpPage"
+             Shell.PresentationMode="ModalNotAnimated"
+             BackgroundColor="Transparent"
+             Title="XMarkPopUpPage">
+
+    <ContentPage.Resources>
+        <x:String x:Key="plus">&#x2b;</x:String>
+    </ContentPage.Resources>
+
+
+    <Frame Grid.ColumnSpan="2" Grid.RowSpan="3" BackgroundColor="#99000000" CornerRadius="0" BorderColor="#99000000">
+        <Frame.GestureRecognizers>
+            <TapGestureRecognizer Tapped="ReturnPage_tapped" />
+        </Frame.GestureRecognizers>
+        <VerticalStackLayout VerticalOptions="EndAndExpand" Margin="0,0,0,100" BackgroundColor="Transparent">
+            <VerticalStackLayout.GestureRecognizers>
+                <TapGestureRecognizer Tapped="ReturnPage_tapped" />
+            </VerticalStackLayout.GestureRecognizers>
+
+            <VerticalStackLayout BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand">
+                <VerticalStackLayout.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="AddTransaction_tapped"/>
+                </VerticalStackLayout.GestureRecognizers>
+                <Frame Padding="10" CornerRadius="80" HorizontalOptions="Center" VerticalOptions="End" BackgroundColor="White">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="AddTransaction_tapped"/>
+                    </Frame.GestureRecognizers>
+                    <Image>
+                        <Image.Source>
+                            <FontImageSource FontFamily="FontAwesomeFS" Color="blue" Glyph="{StaticResource plus}"/>
+                        </Image.Source>
+                    </Image>
+
+                </Frame>
+                <Label Text="TRANSAÇÃO" FontSize="Small" TextColor="White" HorizontalOptions="Center" Padding="5"/>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+
+    </Frame>
+
+</ContentPage>

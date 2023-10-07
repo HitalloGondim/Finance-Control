@@ -10,13 +10,26 @@ public partial class MainPage : ContentPage
         InitializeComponent();
     }
 
-    async private void OnTapExtrato(object sender, EventArgs e)
+    private async void Extract_tapped(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(ExtractPage));
+        //await Shell.Current.GoToAsync(nameof(ExtractPage));
+        await Shell.Current.GoToAsync(nameof(CadastroPage));
     }
 
-    /*async private void AddTransation_Tapped(object sender, TappedEventArgs e)
+
+    private async void XMark_tapped(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(TransactionPage));
-    }*/
+        await Shell.Current.GoToAsync(nameof(XMarkPopUpPage));
+
+
+    }
+
+    private void AddTransaction_tapped(object sender, EventArgs e)
+    {
+       // transaction.IsVisible = true;
+
+
+    }
+
+
 }

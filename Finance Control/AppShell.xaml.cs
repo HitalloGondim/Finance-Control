@@ -8,6 +8,9 @@ namespace Finance_Control
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(ExtractPage), typeof(ExtractPage));
+            Routing.RegisterRoute(nameof(CadastroPage), typeof(CadastroPage));
+            Routing.RegisterRoute(nameof(XMarkPopUpPage), typeof(XMarkPopUpPage));
+
         }
     }
 }

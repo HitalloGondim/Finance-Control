@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZYnoFYMll7CDArGdtuyk2kvKCoDaWyjcc65G53FJzjExO4141FHCnl0HgDAcj2U18ohuYotOya5wljB6U6BwZA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Finance Control\\SQLiteDataAcessLibrary\\SQLiteDataAcessLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\XviciadofatorX\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

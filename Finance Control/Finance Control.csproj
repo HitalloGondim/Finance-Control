@@ -49,21 +49,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <AndroidResource Remove="NovaPasta\**" />
-	  <Compile Remove="NovaPasta\**" />
-	  <EmbeddedResource Remove="NovaPasta\**" />
-	  <MauiCss Remove="NovaPasta\**" />
-	  <MauiXaml Remove="NovaPasta\**" />
-	  <None Remove="NovaPasta\**" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <None Remove="Resources\Fonts\Font-Awesome-Brands-Regular-400.otf" />
 	  <None Remove="Resources\Fonts\Font-Awesome-Free-Regular-400.otf" />
 	  <None Remove="Resources\Fonts\Font-Awesome-Free-Solid-900.otf" />
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
@@ -73,7 +65,23 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\SQLiteDataAcessLibrary\SQLiteDataAcessLibrary.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="View\XMarkPopUpPage.xaml.cs">
+	    <DependentUpon>XMarkPopUpPage.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="View\CadastroPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\ExtractPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\XMarkPopUpPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

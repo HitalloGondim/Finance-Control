@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using SQLiteDataAcessLibrary.Services;
 
 namespace Finance_Control
 {
@@ -22,6 +23,7 @@ namespace Finance_Control
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
+            builder.Services.AddSingleton<ITransactionService, TransactionService>();
 
             return builder.Build();
         }

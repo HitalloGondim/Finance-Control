@@ -217,7 +217,6 @@ C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x6
 C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet-debug.dylib
 C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.a
 C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\libxamarin-dotnet.dylib
-C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\build-signature\signature
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\mauiimage.inputs
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\mauifont.inputs
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\mauisplash.inputs
@@ -268,3 +267,6 @@ C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x6
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\Finance Control.pdb
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\Finance Control.genruntimeconfig.cache
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\ref\Finance Control.dll
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Brands-Regular-400.otf
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Free-Regular-400.otf
+C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Free-Solid-900.otf

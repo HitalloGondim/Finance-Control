@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Finance_Control.View.CadastroPage"
+             Shell.PresentationMode="ModalAnimated"
+             BackgroundColor="Transparent"
+             Title="CadastroPage">
+
+    <Frame BackgroundColor="#99000000" CornerRadius="0" Padding="0" Margin="0" BorderColor="#99000000">
+        <Frame.GestureRecognizers>
+            <TapGestureRecognizer Tapped="ReturnPage_tapped"/>
+        </Frame.GestureRecognizers>
+        <Frame Margin="30" Padding="20" CornerRadius="20" VerticalOptions="Center" BackgroundColor="White">
+
+            <VerticalStackLayout BackgroundColor="Transparent" VerticalOptions="CenterAndExpand">
+
+                <Label Text="Nova Transação" TextColor="Black" FontSize="Large" />
+                <Entry Keyboard="Text" FontSize="Medium" ClearButtonVisibility="WhileEditing" IsTextPredictionEnabled="True" Placeholder="Descrição" BackgroundColor="Transparent" />
+                <Entry Keyboard="Text" FontSize="Medium" Placeholder="Categoria" BackgroundColor="White"/>
+                <Entry Keyboard="Numeric" FontSize="Medium" Placeholder="R$ 0,00" BackgroundColor="White"/>
+                <DatePicker BackgroundColor="White" FontAttributes="Bold" FontSize="Medium" Format="dd/MM/yyyy" />
+
+                <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20">
+                    <Button Text="CANCELAR" Clicked="ReturnPage_tapped" CornerRadius="20" FontSize="Medium" BackgroundColor="Red" FontAutoScalingEnabled="True"/>
+
+                    <Button Text="ADICIONAR" CornerRadius="20" BackgroundColor="Green" FontSize="Medium" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+    </Frame>
+
+
+
+
+</ContentPage>
