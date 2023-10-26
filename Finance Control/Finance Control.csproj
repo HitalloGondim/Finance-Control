@@ -60,11 +60,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Model\" />
-	  <Folder Include="ViewModel\" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <ProjectReference Include="..\SQLiteDataAcessLibrary\SQLiteDataAcessLibrary.csproj" />
 	</ItemGroup>
 

@@ -3,7 +3,7 @@ using SQLiteDataAcessLibrary.Models;
 
 namespace SQLiteDataAcessLibrary.Services;
 
-public class TransactionService : ITransactionService
+public class TransactionService
 {
 
     private SQLiteAsyncConnection _dbConnection;
@@ -18,7 +18,7 @@ public class TransactionService : ITransactionService
         if (_dbConnection == null)
         {
             string dbPath = Path.Combine(Environment.
-                GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Agenda.db3");
+                GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Finance.db3");
 
             _dbConnection = new SQLiteAsyncConnection(dbPath);
             await _dbConnection.CreateTableAsync<Transaction>();

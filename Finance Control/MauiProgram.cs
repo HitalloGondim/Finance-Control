@@ -23,7 +23,8 @@ namespace Finance_Control
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif
-            builder.Services.AddSingleton<ITransactionService, TransactionService>();
+         //   builder.Services.AddSingleton<TransactionService>();
+         //   builder.Services.AddSingleton<BalanceService>();
 
             return builder.Build();
         }

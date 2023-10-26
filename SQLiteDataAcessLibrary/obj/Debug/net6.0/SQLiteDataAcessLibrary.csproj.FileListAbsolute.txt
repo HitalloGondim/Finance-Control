@@ -1,0 +1,12 @@
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\bin\Debug\net6.0\SQLiteDataAcessLibrary.deps.json
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\bin\Debug\net6.0\SQLiteDataAcessLibrary.dll
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\bin\Debug\net6.0\SQLiteDataAcessLibrary.pdb
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.csproj.AssemblyReference.cache
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.AssemblyInfoInputs.cache
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.AssemblyInfo.cs
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.csproj.CoreCompileInputs.cache
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.dll
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\refint\SQLiteDataAcessLibrary.dll
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\SQLiteDataAcessLibrary.pdb
+C:\Projetos\Finance Control\SQLiteDataAcessLibrary\obj\Debug\net6.0\ref\SQLiteDataAcessLibrary.dll

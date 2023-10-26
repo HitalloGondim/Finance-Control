@@ -270,3 +270,11 @@ C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x6
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Brands-Regular-400.otf
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Free-Regular-400.otf
 C:\Projetos\Finance Control\Finance Control\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\f\Font-Awesome-Free-Solid-900.otf
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\CommunityToolkit.Mvvm.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLite-net.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.core.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLiteDataAcessLibrary.dll
+C:\Projetos\Finance Control\Finance Control\bin\Debug\net7.0-ios\iossimulator-x64\SQLiteDataAcessLibrary.pdb
